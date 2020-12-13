@@ -21,5 +21,6 @@ public class TestActivity extends AppCompatActivity {
 
     private void initView() {
         Toast.makeText(TestActivity.this, "hahah", Toast.LENGTH_LONG).show();
+        Toast.makeText(TestActivity.this, "dev开发分支", Toast.LENGTH_LONG).show();
     }
 }

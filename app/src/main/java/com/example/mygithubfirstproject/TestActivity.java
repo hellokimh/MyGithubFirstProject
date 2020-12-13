@@ -13,6 +13,14 @@ public class TestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_test);
         initView();
         initOnClick();
+        initBug();
+    }
+
+    /**
+     * 处理bug
+     */
+    private void initBug() {
+        Toast.makeText(TestActivity.this, "bug开发分支,bug处理完后合并到稳定的版本", Toast.LENGTH_LONG).show();
     }
 
     private void initOnClick() {

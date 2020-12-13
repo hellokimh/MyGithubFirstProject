@@ -21,7 +21,7 @@ public class TestActivity extends AppCompatActivity {
 
     private void initView() {
         Toast.makeText(TestActivity.this, "hahah", Toast.LENGTH_LONG).show();
-        
+
 
     }
 }

@@ -11,9 +11,14 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         initView();
+        initOnClick();
+    }
+
+    private void initOnClick() {
+
     }
 
     private void initView() {
-        
+
     }
 }

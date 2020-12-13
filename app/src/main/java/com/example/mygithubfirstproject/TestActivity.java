@@ -3,7 +3,6 @@ package com.example.mygithubfirstproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Toast;
 
 public class TestActivity extends AppCompatActivity {
 
@@ -12,6 +11,11 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         initView();
+        initOnClick();
+    }
+
+    private void initOnClick() {
+
     }
 
     private void initView() {
